@@ -56,6 +56,12 @@
             "homepage": "https://github.com/omnipay/omnipay/graphs/contributors"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/cradenbyrg/paypal.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "omnipay/2checkout": "~2.0",
         "omnipay/authorizenet": "~2.0",
@@ -75,7 +81,7 @@
         "omnipay/payfast": "~2.0",
         "omnipay/payflow": "~2.0",
         "omnipay/paymentexpress": "~2.0",
-        "omnipay/paypal": "~2.0",
+        "imgembed/omnipay-paypal": "dev-master",
         "omnipay/pin": "~2.0",
         "omnipay/sagepay": "~2.0",
         "omnipay/securepay": "~2.0",
